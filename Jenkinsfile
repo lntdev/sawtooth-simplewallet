@@ -7,7 +7,6 @@ node ('master') {
         ws("/mnt/data") {
             stage("Clone Repo") {
                 checkout scm
-                sh 'git fetch --tag'
             }
 
         }
