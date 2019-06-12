@@ -8,9 +8,9 @@ node ('master') {
             stage("Clone Repo") {
                 checkout scm
             }
-            stage("build dockr images") {
-		sh "sudo docker -t simple:Dockerfile"
-	    } 
+//            stage("build dockr images") {
+//		sh "sudo docker -t simple:Dockerfile"
+//	    } 
 
 	
         }
