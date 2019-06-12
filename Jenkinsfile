@@ -9,7 +9,7 @@ node ('master') {
                 checkout scm
             }
             stage("build dockr images") {
-		sh "docker -t simple:Dockerfile"
+		sh "sudo docker -t simple:Dockerfile"
 	    } 
 
 	
